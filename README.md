@@ -1,4 +1,6 @@
 
+```markdown
+
 # Preschool Student Management Web App
 
 This is a web-based API for managing preschool student records, announcements, and parent-teacher communication. It uses Express, Mongoose, and MongoDB Atlas to provide a full-stack backend service.
