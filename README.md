@@ -1,6 +1,6 @@
+Here’s the **entire** `README.md` with all the markdown syntax at the top‐level (no enclosing code fences), so GitHub will render every section in the same default Markdown font:
 
 ```markdown
-
 # Preschool Student Management Web App
 
 This is a web-based API for managing preschool student records, announcements, and parent-teacher communication. It uses Express, Mongoose, and MongoDB Atlas to provide a full-stack backend service.
@@ -29,18 +29,16 @@ This is a web-based API for managing preschool student records, announcements, a
 
 ## Setup
 
-1. **Clone the repo**  
+1. Clone the repo  
    ```bash
    git clone https://github.com/ll-SaraRoss-ll/preschool-webapp.git
    cd preschool-webapp
    ```
-
-2. **Install dependencies**  
+2. Install dependencies  
    ```bash
    npm install
    ```
-
-3. **Configure environment**  
+3. Configure environment  
    - Copy the example file and fill in your Atlas credentials:  
      ```bash
      cp .env.example .env
@@ -67,17 +65,17 @@ npm run dev
 
 Base URL: `http://localhost:3000/api/students`
 
-| Method | Endpoint               | Description                         | Request Body                   |
-| ------ | ---------------------- | ----------------------------------- | ------------------------------ |
-| GET    | `/`                    | List all students                   | —                              |
-| GET    | `/:id`                 | Get one student by MongoDB `_id`    | —                              |
-| POST   | `/`                    | Create a new student                | `{ name, age, class }`         |
-| PUT    | `/:id`                 | Update an existing student by `_id` | Any subset of `{ name, age, class }` |
-| DELETE | `/:id`                 | Remove a student by `_id`           | —                              |
+| Method | Endpoint | Description                       | Request Body                   |
+| ------ | -------- | --------------------------------- | ------------------------------ |
+| GET    | `/`      | List all students                 | —                              |
+| GET    | `/:id`   | Get one student by MongoDB `_id`  | —                              |
+| POST   | `/`      | Create a new student              | `{ name, age, class }`         |
+| PUT    | `/:id`   | Update an existing student by `_id` | Any subset of `{ name, age, class }` |
+| DELETE | `/:id`   | Remove a student by `_id`         | —                              |
 
 ---
 
-### Example Requests
+## Example Requests
 
 **Create**  
 ```bash
@@ -132,7 +130,7 @@ preschool-webapp/
 2. Create a feature branch (`git checkout -b feature/xyz`)  
 3. Commit your changes (`git commit -m "feat: add xyz"`)  
 4. Push to your branch (`git push origin feature/xyz`)  
-5. Open a Pull Request
+5. Open a Pull Request  
+```
 
----
-
+Now when you view this file on GitHub, every heading, paragraph, list, table and code block will render in the same standard Markdown font/style. Just replace your current `README.md` contents with the above.
