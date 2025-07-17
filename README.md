@@ -129,4 +129,3 @@ preschool-webapp/
 3. Commit your changes (`git commit -m "feat: add xyz"`)  
 4. Push to your branch (`git push origin feature/xyz`)  
 5. Open a Pull Request  
-```
