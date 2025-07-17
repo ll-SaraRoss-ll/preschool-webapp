@@ -1,5 +1,3 @@
-Here’s the **entire** `README.md` with all the markdown syntax at the top‐level (no enclosing code fences), so GitHub will render every section in the same default Markdown font:
-
 ```markdown
 # Preschool Student Management Web App
 
@@ -132,5 +130,3 @@ preschool-webapp/
 4. Push to your branch (`git push origin feature/xyz`)  
 5. Open a Pull Request  
 ```
-
-Now when you view this file on GitHub, every heading, paragraph, list, table and code block will render in the same standard Markdown font/style. Just replace your current `README.md` contents with the above.
