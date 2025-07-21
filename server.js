@@ -1,6 +1,7 @@
 require('dotenv').config();
 console.log('Using MONGO_URI:', process.env.MONGO_URI);
 const express = require('express');
+const path = require('path'); 
 const mongoose = require('mongoose');
 const studentRoutes  = require('./routes/students');
 const errorHandler   = require('./middleware/errorHandler');
@@ -21,6 +22,10 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // Routes
 app.use('/api/students', studentRoutes);
+
+
+// Serve your frontend from public/
+app.use(express.static(path.join(__dirname, 'public')));
 
 // 404 handler
 app.use((req, res) => {
